@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Information Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.72/build/spline-viewer.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ENGINEERING PORTAL</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#branches">BRANCHES</a></li>
+                <li><a href="#eligibility">ELIGIBILITY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search branches..." class="search-input">
+                <button class="search-btn">SEARCH</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="geometric-accent"></div>
+            <h1>Discover Your Future<br>in Engineering</h1>
+            <p class="intro-text">Explore the diverse world of engineering disciplines and find your path to innovation, creativity, and technological advancement. Our comprehensive guide helps you understand different engineering branches, their scope, and career opportunities.</p>
+            <div class="cta-buttons">
+                <a href="#branches" class="primary-btn">Explore Branches</a>
+                <a href="#eligibility" class="secondary-btn">Check Eligibility</a>
+            </div>
+        </section>
+
+        <section id="branches" class="branches-grid">
+            <div class="branch-card" data-branch="civil">
+                <div class="card-header">
+                    <h2>Civil Engineering</h2>
+                    <div class="geometric-shape circle"></div>
+                </div>
+                <p>Design, construct, and maintain the built environment including buildings, roads, bridges, and infrastructure systems. Shape the future of sustainable urban development.</p>
+                <div class="card-illustration civil-img"></div>
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+
+            <div class="branch-card" data-branch="mechanical">
+                <div class="card-header">
+                    <h2>Mechanical Engineering</h2>
+                    <div class="geometric-shape square"></div>
+                </div>
+                <p>Design and manufacture mechanical systems, from tiny components to large machinery and vehicles. Drive innovation in robotics and automation.</p>
+                <div class="card-illustration mechanical-img"></div>
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+
+            <div class="branch-card" data-branch="electrical">
+                <div class="card-header">
+                    <h2>Electrical Engineering</h2>
+                    <div class="geometric-shape triangle"></div>
+                </div>
+                <p>Work with electricity, electronics, and electromagnetism for power generation and electronic devices. Lead the future of renewable energy.</p>
+                <div class="card-illustration electrical-img"></div>
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+
+            <div class="branch-card" data-branch="computer">
+                <div class="card-header">
+                    <h2>Computer Science</h2>
+                    <div class="geometric-shape square"></div>
+                </div>
+                <p>Design and develop computer systems, software applications, and digital solutions. Shape the future of technology and artificial intelligence.</p>
+                <div class="card-illustration computer-img"></div>
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+
+            <div class="branch-card" data-branch="chemical">
+                <div class="card-header">
+                    <h2>Chemical Engineering</h2>
+                    <div class="geometric-shape circle"></div>
+                </div>
+                <p>Design and operate chemical plants and processes for converting raw materials into valuable products. Pioneer sustainable solutions.</p>
+                <div class="card-illustration chemical-img"></div>
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+
+            <div class="branch-card" data-branch="aerospace">
+                <div class="card-header">
+                    <h2>Aerospace Engineering</h2>
+                    <div class="geometric-shape triangle"></div>
+                </div>
+                <p>Design, develop, and produce aircraft and spacecraft systems for aviation and space exploration. Push the boundaries of human achievement.</p>
+                <div class="card-illustration aerospace-img"></div>
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+        </section>
+
+        <section id="eligibility" class="section">
+            <h2 class="section-title">Eligibility Requirements</h2>
+            <div class="eligibility-content">
+                <div class="eligibility-card">
+                    <h3>Academic Requirements</h3>
+                    <ul>
+                        <li>10+2 with Physics, Chemistry, and Mathematics as core subjects</li>
+                        <li>Minimum 60% aggregate in PCM subjects</li>
+                        <li>Strong foundation in mathematics and analytical skills</li>
+                        <li>Good communication and problem-solving abilities</li>
+                    </ul>
+                </div>
+                
+                <div class="eligibility-card">
+                    <h3>Entrance Exams</h3>
+                    <ul>
+                        <li>JEE Main & Advanced - National level engineering entrance</li>
+                        <li>State Engineering Entrance Exams - State-specific tests</li>
+                        <li>BITSAT - Birla Institute of Technology entrance</li>
+                        <li>VITEEE - VIT Engineering Entrance Examination</li>
+                        <li>MET - Manipal Entrance Test</li>
+                    </ul>
+                </div>
+
+                <div class="eligibility-card">
+                    <h3>Additional Requirements</h3>
+                    <ul>
+                        <li>Age limit: Generally 17-25 years</li>
+                        <li>Valid score card of qualifying examination</li>
+                        <li>Domicile requirements (for state quotas)</li>
+                        <li>Category certificates (if applicable)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="careers" class="section">
+            <h2 class="section-title">Career Pathways</h2>
+            <div class="careers-content">
+                <div class="career-path">
+                    <h3>Industry Roles</h3>
+                    <ul>
+                        <li>Research & Development Engineer</li>
+                        <li>Design & Development Specialist</li>
+                        <li>Project Management Professional</li>
+                        <li>Quality Assurance Engineer</li>
+                        <li>Technical Consultant</li>
+                        <li>Systems Architect</li>
+                        <li>Product Manager</li>
+                    </ul>
+                </div>
+                
+                <div class="career-path">
+                    <h3>Higher Studies</h3>
+                    <ul>
+                        <li>M.Tech in Specialized Fields</li>
+                        <li>MS in Foreign Universities</li>
+                        <li>MBA in Technical Management</li>
+                        <li>PhD Programs</li>
+                        <li>Research Fellowships</li>
+                        <li>Post-Doctoral Studies</li>
+                    </ul>
+                </div>
+
+                <div class="career-path">
+                    <h3>Emerging Fields</h3>
+                    <ul>
+                        <li>Artificial Intelligence & Machine Learning</li>
+                        <li>Renewable Energy Systems</li>
+                        <li>Robotics & Automation</li>
+                        <li>Smart Infrastructure</li>
+                        <li>Sustainable Technologies</li>
+                        <li>Space Technology</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions about engineering programs? We're here to help!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@engineeringportal.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+91 1234567890</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Engineering Campus, Tech City, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject">
+                                <option value="">Select Subject</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="counseling">Career Counseling</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-view" id="detailView">
+            <div class="close-btn">&times;</div>
+            <div class="detail-content">
+                <div class="spline-container">
+                    <spline-viewer loading-anim url=""></spline-viewer>
+                </div>
+                <div class="info-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="description">Description</button>
+                        <button class="tab-btn" data-tab="scope">Future Scope</button>
+                        <button class="tab-btn" data-tab="careers">Careers</button>
+                        <button class="tab-btn" data-tab="eligibility">Eligibility</button>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="description"></div>
+                        <div class="tab-panel" id="scope"></div>
+                        <div class="tab-panel" id="careers"></div>
+                        <div class="tab-panel" id="eligibility"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
